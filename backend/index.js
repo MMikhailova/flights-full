@@ -3,7 +3,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 import mongoose from 'mongoose';
-
 import userRoutes from './routes/user.js';
 import flightRoutes from './routes/flight.js';
 import logger from './middleware/logger.js';
